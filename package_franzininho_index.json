@@ -1,0 +1,67 @@
+{
+  "packages": [
+    {
+      "name": "franzininho",
+      "maintainer": "Franzininho Educacional",
+      "websiteURL": "http://www.franzininho.com.br",
+      "email": "contato@franzininho.com.br",
+      "help": {"online": "https://franzininho.gitbook.io/franzininho-docs/"},
+
+      "platforms": [
+        {
+          "name": "Franzininho AVR Boards (dependency: Arduino AVR Boards)",
+          "architecture": "avr",
+          "version": "1.0.0",
+          "category": "contributed",
+          "help": {"online": "http://www.franzininho.com.br"},
+          "url": "https://github.com/FBSeletronica/pacote/blob/master/franzininho-avr.zip?raw=true",
+          "archiveFileName": "franzininho-avr.zip",
+          "size": "1445934",
+          "boards": [
+            {"name": "Franzininho DIY(tiny85)"}
+          ],
+          "toolsDependencies": [
+            {
+              "packager": "franzininho",
+              "name": "micronucleus",
+              "version": "2.0a4"
+            }
+          ]
+        }
+      ],
+
+      "tools": [
+        {
+          "name":"micronucleus",
+          "version":"2.0a4",
+          "systems": [
+            {
+                "host":"i686-mingw32",
+                "url":"https://github.com/watterott/Arduino-Boards/raw/master/files/micronucleus-win32.zip",
+                "archiveFileName":"micronucleus-2.0a4-win32.zip",
+                "size":"13187"
+            },
+            {
+                "host":"x86_64-linux-gnu",
+                "url":"https://github.com/watterott/Arduino-Boards/raw/master/files/micronucleus-linux64.tar.gz",
+                "archiveFileName":"micronucleus-2.0a4-linux64.tar.gz",
+                "size":"20183"
+            },
+            {
+                "host":"i686-linux-gnu",
+                "url":"https://github.com/watterott/Arduino-Boards/raw/master/files/micronucleus-linux32.tar.gz",
+                "archiveFileName":"micronucleus-2.0a4-linux32.tar.gz",
+                "size":"19123"
+            },
+            {
+                "host":"x86_64-apple-darwin",
+                "url":"https://github.com/watterott/Arduino-Boards/raw/master/files/micronucleus-osx.tar.gz",
+                "archiveFileName":"micronucleus-2.0a4-osx.tar.gz",
+                "size":"25140"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

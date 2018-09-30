@@ -1,0 +1,43 @@
+# VID 0x6666 is a prototype product Vendor ID
+# http://www.linux-usb.org/usb.ids
+
+menu.speed=Speed
+#menu.core=Core
+menu.msg=Info
+
+
+# ATtiny85 @ internal 16.5MHz
+tiny85.name= Franzininho DIY (tiny85)
+# use Standard Arduino Core
+tiny85.menu.core.arduino=Standard Arduino
+tiny85.menu.core.arduino.build.core=arduino:arduino
+tiny85.menu.core.arduino.build.variant=tiny8
+tiny85.menu.core.arduino.build.board=AVR_ATTINY85
+# info menu item
+tiny85.menu.msg.info= Pressione RESET quando a mensagem de carregar aparecer
+
+tiny85.vid.0=0x16D0
+tiny85.pid.0=0x0753
+
+tiny85.bootloader.tool=avrdude
+tiny85.bootloader.low_fuses=0xE1
+tiny85.bootloader.high_fuses=0xDD
+tiny85.bootloader.extended_fuses=0xFE
+tiny85.bootloader.unlock_bits=0xFF
+tiny85.bootloader.lock_bits=0xFF
+tiny85.bootloader.file=micronucleus-t85.hex
+
+tiny85.upload.tool=micronucleus
+tiny85.upload.protocol=usb
+tiny85.upload.wait_for_upload_port=false
+tiny85.upload.use_1200bps_touch=false
+tiny85.upload.disable_flushing=false
+tiny85.upload.maximum_size=6500
+tiny85.upload.maximum_data_size=512
+
+tiny85.build.mcu=attiny85
+tiny85.build.f_cpu=16500000L
+# default core may be overridden by menu
+tiny85.build.core=arduino:arduino
+tiny85.build.variant=tiny8
+tiny85.build.board=AVR_ATTINY85
