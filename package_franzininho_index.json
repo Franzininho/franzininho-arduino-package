@@ -14,7 +14,7 @@
           "version": "1.0.0",
           "category": "contributed",
           "help": {"online": "http://www.franzininho.com.br"},
-          "url": "https://github.com/FBSeletronica/pacote/blob/master/franzininho-avr.zip?raw=true",
+          "url": "https://github.com/Franzininho/franzininho-arduino-package/blob/master/franzininho-avr.zip?raw=true",
           "archiveFileName": "franzininho-avr.zip",
           "size": "1445934",
           "boards": [
