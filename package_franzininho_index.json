@@ -2,10 +2,10 @@
   "packages": [
     {
       "name": "franzininho",
-      "maintainer": "Franzininho Educacional",
+      "maintainer": "Franzininho",
       "websiteURL": "http://www.franzininho.com.br",
       "email": "contato@franzininho.com.br",
-      "help": {"online": "https://franzininho.gitbook.io/franzininho-docs/"},
+      "help": {"online": "https://github.com/Franzininho"},
 
       "platforms": [
         {
