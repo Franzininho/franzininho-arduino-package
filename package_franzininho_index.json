@@ -18,7 +18,7 @@
           "archiveFileName": "franzininho-avr.zip",
           "size": "1445934",
           "boards": [
-            {"name": "Franzininho DIY(tiny85)"}
+            {"name": "Franzininho DIY"}
           ],
           "toolsDependencies": [
             {
