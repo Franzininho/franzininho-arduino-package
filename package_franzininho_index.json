@@ -39,6 +39,7 @@
                 "host":"i686-mingw32",
                 "url":"https://github.com/Franzininho/franzininho-arduino-package/raw/master/arquivos/micronucleus-2.0a4-win.zip",
                 "archiveFileName":"micronucleus-2.0a4-win.zip",
+                "checksum": "SHA-256:7027971118FDE88484AACB5D8CA7867D66E273839EC3B2592616829317BB70E4",
                 "size":"1712005"
             },
             {
