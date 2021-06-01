@@ -43,9 +43,9 @@
             },
             {
                 "host":"x86_64-linux-gnu",
-                "url":"https://github.com/watterott/Arduino-Boards/raw/master/files/micronucleus-linux64.tar.gz",
-                "archiveFileName":"micronucleus-2.0a4-linux64.tar.gz",
-                "size":"20183"
+                "url":"https://github.com/Franzininho/franzininho-arduino-package/raw/master/arquivos/micronucleus-linux64.tar.gz",
+                "archiveFileName":"micronucleus-linux64.tar.gz",
+                "size":"24984"
             },
             {
                 "host":"i686-linux-gnu",
