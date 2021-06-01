@@ -7,7 +7,7 @@ menu.msg=Info
 
 
 # ATtiny85 @ internal 16.5MHz
-tiny85.name= Franzininho DIY (tiny85)
+tiny85.name= Franzininho DIY
 # use Standard Arduino Core
 tiny85.menu.core.arduino=Standard Arduino
 tiny85.menu.core.arduino.build.core=arduino:arduino
