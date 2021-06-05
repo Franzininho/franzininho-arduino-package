@@ -1,5 +1,5 @@
 
-# Watterott AVR Core and Platform
+# Franzininho AVR Core and Platform
 # -------------------------------
 
 name=Franzininho
