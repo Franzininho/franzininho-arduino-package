@@ -16,18 +16,13 @@
           "help": {"online": "http://www.franzininho.com.br"},
           "url": "https://github.com/Franzininho/franzininho-arduino-package/raw/master/franzininho-avr-01.zip",
           "archiveFileName": "franzininho-avr-01.zip",
-          "size": "3368614",
+          "size": "336861",
           "boards": [
             {"name": "Franzininho DIY"}
           ],
           "toolsDependencies": [
             {
-              "packager": "arduino",
-              "name": "avr-gcc",
-              "version": "4.8.1-arduino5"
-            },
-            {
-              "packager": "digistump",
+              "packager": "franzininho",
               "name": "micronucleus",
               "version": "2.0a4"
             }
