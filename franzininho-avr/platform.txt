@@ -139,6 +139,14 @@ tools.micronucleus.bootloader.params.verbose=
 tools.micronucleus.bootloader.params.quiet=
 tools.micronucleus.bootloader.pattern="{path}/{cmd}" --run --timeout 60 "{runtime.platform.path}/bootloaders/{bootloader.file}"
 
+## Micronucleus (PICSimLab)
+tools.pmicronucleus.upload.params.verbose=
+tools.pmicronucleus.upload.params.quiet=
+tools.pmicronucleus.path={runtime.tools.micronucleus.path}
+tools.pmicronucleus.cmd=pmicronucleus
+tools.pmicronucleus.cmd.windows=pmicronucleus.exe
+tools.pmicronucleus.upload.pattern="{path}/{cmd}" "{build.path}/{build.project_name}.hex"
+
 # USB Default Flags
 # Default blank usb manufacturer will be filled in at compile time
 # - from numeric vendor ID, set to Unknown otherwise
