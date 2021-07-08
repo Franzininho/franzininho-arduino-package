@@ -41,3 +41,19 @@ tiny85.build.f_cpu=16500000L
 tiny85.build.core=arduino:arduino
 tiny85.build.variant=tiny8
 tiny85.build.board=AVR_ATTINY85
+
+#Placa Franzininho DIY no PICSimLab
+franzininho-sim.name=Franzininho DIY (PICSimLab)
+franzininho-sim.build.mcu=attiny85
+franzininho-sim.build.f_cpu=16500000L
+franzininho-sim.build.board=AVR_ATTINY85
+franzininho-sim.build.core=arduino:arduino
+franzininho-sim.build.variant=tiny8
+#franzininho-sim.build.export_merged_output=false
+franzininho-sim.upload.using=pmicronucleusprog
+franzininho-sim.upload.protocol=usb
+franzininho-sim.upload.tool=pmicronucleus
+franzininho-sim.upload.maximum_size=6012
+franzininho-sim.upload.wait_for_upload_port=false
+franzininho-sim.upload.use_1200bps_touch=false
+franzininho-sim.upload.disable_flushing=false
